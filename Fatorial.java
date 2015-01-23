@@ -1,5 +1,5 @@
 public class Fatorial{
-	// Versao iterativa do calclo do fatorial
+	// Versao iterativa do calclo do fatorial, incluido o teste n =0
 	public int calculaFatorial(int n) throws IllegalArgumentException{
 		if(n < 0 )
 			throw new IllegalArgumentException("Não existe fatorial de numeros negativos");
